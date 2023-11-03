@@ -1,0 +1,27 @@
+{
+    "version": "2.0.0-beta.1",
+    "name": "catalysthub2",
+    "app-name": "Catalyst Hub",
+    "package-name": "webview",
+    "project-type": "webview",
+    "icon": "./assets/icon/icon.png",
+    "dist-path": "./dist",
+    "permission": [
+        "android.permission.INTERNET"
+    ],
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+        "start:dev": "node .",
+        "build": "androidjs build"
+    },
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "androidjs": "^2.0.2"
+    },
+    "project-name": "Catalyst Hub",
+    "theme": {
+        "fullScreen": true
+    }
+}
